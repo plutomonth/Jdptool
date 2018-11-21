@@ -1,0 +1,58 @@
+<project name="Sample" basedir="./" default="main">
+
+    <target name="init">
+        <tstamp />
+        <property environment="env" />
+        <property file="${basedir}/build.properties" />
+
+        <path id="project.classpath">
+            <fileset dir="${lib.dir}"   includes="**/*.jar" />
+        </path>
+
+        <!-- Directories -->
+        <mkdir dir="${dist.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac
+            destdir="${classes.dir}"
+            debug="${compiler.debug}"
+            deprecation="${compiler.deprecation}"
+            compiler="${compiler.type}"
+            classpathref="project.classpath">
+
+            <src path="${src.dir}" />
+        </javac>
+
+        <copy todir="${classes.dir}">
+            <fileset dir="${src.dir}" includes="**/*.properties" />
+            <fileset dir="${src.dir}" includes="**/*.xml" />
+        </copy>
+    </target>
+
+    <target name="main">
+        <antcall target="compile"/>
+    </target>
+
+    <target name="package" depends="init">
+        <jar jarfile="${dist.dir}/${project.jar}"
+                basedir="${classes.dir}"
+                index="yes"
+                includes="**/profilier/**/*.*">
+            <manifest>
+                <attribute name="Main-Class"
+                           value="net.sf.jdptool.Bootstrap" />
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="exec" depends="init">
+        <java classname="net.sf.jdptool.monitor.Trace" classpath="${classes.dir}">
+        	<classpath>
+        		<fileset dir="${lib.dir}"			includes="**/*.jar" />
+        	</classpath>	
+        </java>
+    </target>
+
+</project>

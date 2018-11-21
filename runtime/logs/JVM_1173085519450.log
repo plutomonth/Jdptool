@@ -1,0 +1,5 @@
+Mon Mar 05 17:05:19 CST 2007	VM Started VMStartEvent in thread main
+Mon Mar 05 17:05:19 CST 2007	Class net.sf.jdptool.Target have been loaded
+Mon Mar 05 17:05:19 CST 2007	Class net.sf.jdptool.TestBean have been loaded
+Mon Mar 05 17:05:24 CST 2007	The application exited VMDeathEvent
+Mon Mar 05 17:05:24 CST 2007	The application exited VMDeathEvent

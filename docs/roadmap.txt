@@ -1,0 +1,92 @@
+*******************************************************************************
+*                                                                             *
+*                               THE JDPTOOL ROADMAP                           * 
+*                                                                             *
+*******************************************************************************
+
+version 0.1
+-------------------------------------------------------------------------------
+Function:	
+		1. Get target JVM snapshot at a interval which can be configured and
+           output it to console or files. The snapshot data should include all
+           threads and all classes.
+        
+        2. Set debug points into target JVM and then capture watchpoint, break-
+           point, method event/exit data and redirect it to console or files
+
+
+release:	Feb 17, 2007
+
+version 0.2
+-------------------------------------------------------------------------------
+Function:	
+		1. The format of output of data of snapshot and debug points
+
+
+release:	N/A
+
+version 0.3
+-------------------------------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A
+
+version 0.4
+-------------------------------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A
+
+version 0.5
+-------------------------------------------------------------------------------
+Function:	
+			
+
+
+release:	N/A
+
+version 0.6
+-------------------------------------------------------------------------------
+Function:	
+		1. The architecture of project would be stably. Before this version
+		   packages or classes would be modified arbitrary and violent without
+           notification and downwards compatible
+
+
+release:	N/A
+
+version 0.7
+-------------------------------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A
+
+version 0.8
+-------------------------------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A
+
+version 0.9
+-------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A
+
+version 1.0
+-------------------------------------------------------
+Function:	
+			N/A
+
+
+release:	N/A

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE jdp-config PUBLIC
+       "-//SourceForge net//DTD Jdptool config 1.0//EN"
+       "http://www.future.org/dtds/jdp-config_1_0.dtd">       
+<!--
+	This is profiler configuration file used for test
+	API of profiler filter
+-->
+
+<jdp-config name="default">
+
+    <recorder name="FileRecorder" class="net.sf.jdptool.recorder.FileRecorder" >
+        <param name="filepath" value="${jdptool.home}/runtime/logs"/>
+    </recorder>
+    
+    <runner name="snapshot" class="net.sf.jdptool.SnapshotRunner">
+        <param name="interval" value="10000" />
+        <param name="excludes"  value="java.*;javax.*;sun.*;org.apache.*"/>
+    </runner>
+    
+    <runner name="EventHandler" class="net.sf.jdptool.EventHandlerRunner">
+        <param name="excludes"  value="java.*;javax.*;sun.*;org.apache.*"/>
+        <param name="filter"  value="${jdptool.home}/runtime/conf/default-jdp-filter.xml"/>
+    </runner>
+  
+	<plugin name="FilterPlugin" class="net.sf.jdptool.filter.FilterPlugin">
+	    <param name="filepath" value="${jdptool.home}/runtime/conf/default-jdp-filter.xml" />
+	</plugin>
+	
+</jdp-config>

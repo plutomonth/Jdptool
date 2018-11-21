@@ -1,0 +1,5 @@
+Wed Jun 15 14:58:07 CST 2016	VM Started VMStartEvent in thread main
+Wed Jun 15 14:58:07 CST 2016	Class net.sf.jdptool.Target have been loaded
+Wed Jun 15 14:58:07 CST 2016	Class net.sf.jdptool.TestBean have been loaded
+Wed Jun 15 14:58:09 CST 2016	The application exited VMDeathEvent
+Wed Jun 15 14:58:09 CST 2016	The application exited VMDeathEvent

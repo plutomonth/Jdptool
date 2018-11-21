@@ -1,0 +1,14 @@
+Tue Jun 21 23:09:36 CST 2016	Thread:Attach Listenerinstance of java.lang.Thread(name='Attach Listener', id=2)
+Tue Jun 21 23:09:36 CST 2016	Thread:Signal Dispatcherinstance of java.lang.Thread(name='Signal Dispatcher', id=3)
+Tue Jun 21 23:09:36 CST 2016	Thread:Finalizerinstance of java.lang.ref.Finalizer$FinalizerThread(name='Finalizer', id=4)
+Tue Jun 21 23:09:36 CST 2016	Thread:Reference Handlerinstance of java.lang.ref.Reference$ReferenceHandler(name='Reference Handler', id=5)
+Tue Jun 21 23:09:36 CST 2016	Thread:maininstance of java.lang.Thread(name='main', id=1)
+Tue Jun 21 23:09:36 CST 2016	Class:boolean[][1]
+Tue Jun 21 23:09:36 CST 2016	Class:byte[][13]
+Tue Jun 21 23:09:36 CST 2016	Class:char[][1809]
+Tue Jun 21 23:09:36 CST 2016	Class:char[][][1]
+Tue Jun 21 23:09:36 CST 2016	Class:double[][1]
+Tue Jun 21 23:09:36 CST 2016	Class:float[][1]
+Tue Jun 21 23:09:36 CST 2016	Class:int[][4]
+Tue Jun 21 23:09:36 CST 2016	Class:long[][4]
+Tue Jun 21 23:09:36 CST 2016	Class:short[][2]

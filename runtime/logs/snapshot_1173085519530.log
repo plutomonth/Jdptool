@@ -1,0 +1,14 @@
+Mon Mar 05 17:05:19 CST 2007	Thread:Attach Listenerinstance of java.lang.Thread(name='Attach Listener', id=2)
+Mon Mar 05 17:05:19 CST 2007	Thread:Signal Dispatcherinstance of java.lang.Thread(name='Signal Dispatcher', id=3)
+Mon Mar 05 17:05:19 CST 2007	Thread:Finalizerinstance of java.lang.ref.Finalizer$FinalizerThread(name='Finalizer', id=4)
+Mon Mar 05 17:05:19 CST 2007	Thread:Reference Handlerinstance of java.lang.ref.Reference$ReferenceHandler(name='Reference Handler', id=5)
+Mon Mar 05 17:05:19 CST 2007	Thread:maininstance of java.lang.Thread(name='main', id=1)
+Mon Mar 05 17:05:20 CST 2007	Class:boolean[][0]
+Mon Mar 05 17:05:20 CST 2007	Class:byte[][11]
+Mon Mar 05 17:05:20 CST 2007	Class:char[][1423]
+Mon Mar 05 17:05:20 CST 2007	Class:double[][0]
+Mon Mar 05 17:05:20 CST 2007	Class:float[][0]
+Mon Mar 05 17:05:20 CST 2007	Class:int[][4]
+Mon Mar 05 17:05:20 CST 2007	Class:long[][3]
+Mon Mar 05 17:05:20 CST 2007	Class:net.sf.jdptool.Target[3]
+Mon Mar 05 17:05:20 CST 2007	Class:short[][3]

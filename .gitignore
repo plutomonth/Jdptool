@@ -1,0 +1,6 @@
+# The build path
+/dist
+
+# The eclipse file
+.classpath
+.project
