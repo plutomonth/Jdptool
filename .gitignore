@@ -1,5 +1,7 @@
 # The build path
 /dist
+/.idea
+/.settings
 
 # The eclipse file
 .classpath
